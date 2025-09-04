@@ -1,5 +1,9 @@
-# Materia: PROGRAMACION 1
-# Comision: 4
-# Docente: Cinthia Rigoni
-# Nombre y Apellido: Franco Rios
-# N° Legajo: 802119
+💻 Programación 1
+Tecnicatura Universitaria en Programación
+📍 Universidad Tecnológica Nacional
+
+✨ Estudiante
+Nombre: Franco Agustin Rios Alzamora
+Comisión: M2025-4 
+N° Legajo: 802119
+Docente: Cinthia Rigoni
