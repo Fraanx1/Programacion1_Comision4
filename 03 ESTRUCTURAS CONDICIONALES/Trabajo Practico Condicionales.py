@@ -141,6 +141,20 @@ elif magnitud >= 7:
 #si el usuario se encuentra en otoño, invierno, primavera o verano.
 
 hemisferio = input("¿En cual hemisferio se encuentra? Sur/Norte ").lower
-mes = input("Ingrese el mes en el que se encuentra: ").lower
-dia = int(input("Ingrese en que día se encuentra: "))
+mes = int(input("Ingrese el mes en el que se encuentra (1-12): "))
+dia = int(input("Ingrese en que día se encuentra (1-31): "))
+
+
+if (mes == 12 and dia >= 21 ) or (1 <= mes <= 2) or (mes == 3 and dia >= 20):
+    print("En el hemisferio norte es invierno")
+    print("En el hemisferio sur es verano")
+elif (mes == 3 and dia >= 21) or (4 <= mes <= 5) or (mes == 6 and dia <= 20):
+    print("En el hemisferio norte es primavera")
+    print("En el hemisferio sur es otoño")
+elif (mes == 6 and dia >= 21) or (7 <= mes <= 8) or (mes == 9 and dia <= 20):
+    print("En el hemisferio norte es verano")
+    print("En el hemisferio sur es invierno")
+elif (mes == 9 and dia >= 21) or (10 <= mes <= 11) or (mes == 12 and dia <= 20):
+    print("En el hemisferio norte es otoño")
+    print("En el hemisferio sur es primavera")
 
