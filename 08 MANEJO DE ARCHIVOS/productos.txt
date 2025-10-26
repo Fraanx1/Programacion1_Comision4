@@ -1,0 +1,4 @@
+Yerba,2200,15
+Manteca,1500,10
+Dulce de leche,2600,20
+Leche,2000,13
